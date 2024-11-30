@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConverterX Date Format</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📅 Date Format Converter</h1>
+    <p>Convert the entered date into different formats.</p>
+
+    <label for="inputDate">Date (DD/MM/YYYY):</label>
+    <input type="text" id="inputDate" placeholder="Ex: 29/11/2024" oninput="convertDate()">
+
+    <div class="output-section">
+      <h2>Converted Dates:</h2>
+      <p><strong>American (MM/DD/YYYY):</strong> <span id="usDate">Waiting for date...</span></p>
+      <p><strong>Europe (DD.MM.YYYY):</strong> <span id="euDate">Waiting for date...</span></p>
+      <p><strong>ISO (YYYY-MM-DD):</strong> <span id="isoDate">Waiting for date...</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
