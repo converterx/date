@@ -1,0 +1,77 @@
+/* Genel Stil */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f172a;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background: linear-gradient(145deg, #1e293b, #2d3748);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(255, 170, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff8c00;
+  text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff8c00;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  color: #e8ae68;
+}
+
+label {
+  font-size: 1.1em;
+  color: #e8ae68;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e293b;
+  color: #ffffff;
+  font-size: 1.1em;
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.5);
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
+}
+
+.output-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: #1a202c;
+  border-radius: 10px;
+  border: 2px solid #ff8c00;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+}
+
+h2 {
+  color: #ff8c00;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 1.5em;
+  color: #ffae42;
+  font-weight: bold;
+  display: block;
+  margin-top: 5px;
+}
