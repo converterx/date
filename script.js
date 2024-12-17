@@ -13,12 +13,12 @@ function convertDate() {
 
   const [day, month, year] = inputDate.split("/");
 
-  // Tarih formatlarını dönüştür
+  // Converter date format
   const usFormattedDate = `${month}/${day}/${year}`;
   const euFormattedDate = `${day}.${month}.${year}`;
   const isoFormattedDate = `${year}-${month}-${day}`;
 
-  // Sonuçları göster
+  // Show results
   usDate.textContent = usFormattedDate;
   euDate.textContent = euFormattedDate;
   isoDate.textContent = isoFormattedDate;
